@@ -1,0 +1,7 @@
+Write a Program, to do House Keeping activity of your Machine, generate the alert by sending the mail.
+Task:
+1. CPU utilization
+2. Memory Usage
+3. Disk Space Utilization
+4. Disk File Utilization
+ 

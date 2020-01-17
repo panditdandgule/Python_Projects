@@ -1,0 +1,53 @@
+Create a Schema Diagram for Bookstore DataBase (e-commerce)
+
+Hint:
+
+1. Books
+-- bookID PK
+-- authorID FK
+-- publisherID FK
+-- Title
+-- ISBN
+-- Genre
+-- Type
+-- Publication Year
+-- Price
+-- Condition
+
+2. Publisher
+-- publisherID PPK
+-- bookID FK
+-- Country
+
+3. Author
+-- authorID PK
+-- bookID FK
+-- firstName
+-- LastName
+
+4. Books Inventory
+-- bookID PK
+-- stockCount
+
+5. Customer
+-- customerID PK
+-- firstName
+-- LastName
+-- EmailAddress
+-- Mobile Number
+-- Country
+-- Other Details
+
+6. Orders
+-- orderID PK
+-- CustomerID FK
+-- orderDate
+-- subTotal
+-- Shipping
+-- Total
+
+7. Order Item
+-- OrderID FK PK
+-- bookID FK PK
+-- Quantity
+-- Price

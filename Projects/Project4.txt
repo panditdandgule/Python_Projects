@@ -1,0 +1,5 @@
+Write a Python Program to generate a logic for Password Validator.
+
+1. Using Classes and Objects
+2. Log all the Events
+3. Write Positive and Negative Unit TestCases.
